@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rahma Mohamed | Portfolio</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #0f172a;
+      color: white;
+      line-height: 1.7;
+    }
+    nav {
+      background: #1e293b;
+      padding: 20px 8%;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+    nav h2 { color: #c4b5fd; margin: 0; }
+    nav a { color: white; text-decoration: none; margin: 5px; }
+    header {
+      padding: 100px 10%;
+      background: linear-gradient(120deg, #0f172a, #4c1d95);
+    }
+    header p { color: #ddd6fe; }
+    h1 { font-size: clamp(36px, 6vw, 60px); margin: 10px 0; }
+    h2 { color: #c4b5fd; }
+    section { padding: 45px 10%; }
+    .card {
+      background: #1e293b;
+      padding: 24px;
+      border-radius: 12px;
+      margin: 15px 0;
+      border: 1px solid #334155;
+    }
+    .skills { display: flex; flex-wrap: wrap; gap: 12px; }
+    .skills span {
+      background: #4c1d95;
+      padding: 8px 14px;
+      border-radius: 8px;
+    }
+    .button {
+      display: inline-block;
+      background: #8b5cf6;
+      color: white;
+      padding: 12px 20px;
+      border-radius: 8px;
+      text-decoration: none;
+      margin-top: 15px;
+    }
+    footer {
+      text-align: center;
+      padding: 25px;
+      background: #1e293b;
+    }
+    @media (max-width: 600px) {
+      nav { flex-direction: column; }
+      header { padding: 65px 7%; }
+      section { padding: 35px 7%; }
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <h2>Rahma.</h2>
+    <div>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
+
+  <header>
+    <p>WELCOME TO MY PORTFOLIO</p>
+    <h1>I'm Rahma Mohamed</h1>
+    <h2>Future Web Developer</h2>
+    <p>I love technology, programming, and designing websites.</p>
+    <a class="button" href="#projects">Explore My Work</a>
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <div class="card">
+      My name is Rahma Mohamed. I am learning web development
+      and building my skills in HTML and CSS.
+      <p><strong>Education:</strong> Add your school or university here.</p>
+      <p><strong>Career Goal:</strong> Become a professional web developer.</p>
+    </div>
+  </section>
+
+  <section id="skills">
+    <h2>My Skills</h2>
+    <div class="card skills">
+      <span>HTML5</span>
+      <span>CSS3</span>
+      <span>Responsive Design</span>
+      <span>Bootstrap - Learning</span>
+      <span>Problem Solving</span>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2>My Projects</h2>
+    <div class="card">
+      <h3>Personal Portfolio Website</h3>
+      <p>A responsive website built using HTML and CSS.</p>
+    </div>
+    <div class="card">
+      <h3>Future Projects</h3>
+      <p>More projects coming soon as I continue learning.</p>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <div class="card">
+      <p>Thank you for visiting my website!</p>
+      <p>Email: Add your email address here.</p>
+      <p>GitHub: rahmamohamed125667-sudo</p>
+    </div>
+  </section>
+
+  <footer>© 2026 Rahma Mohamed | My Portfolio</footer>
+</body>
+</html>
